@@ -1,3 +1,38 @@
 * {
     background-color: #DDBD77;
 }
+
+.nav {
+    height: 100px;
+}
+
+.nav ul {
+    display: inline;
+}
+
+
+.hero{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.hero .text {
+    justify-content: left;
+    width: 50%;
+    background-color: red;
+}
+
+.hero .text h1 {
+    font-size: 64px;
+    text-align: center;
+    margin-right: 8px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.hero .image {
+    justify-content: right;
+    width: 50%;
+    background-color: blue;
+}
